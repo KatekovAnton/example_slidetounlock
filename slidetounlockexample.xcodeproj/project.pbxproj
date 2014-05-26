@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C79BFA11933D31100FA9444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C79BFA01933D31100FA9444 /* Foundation.framework */; };
+		6C79BFA31933D31100FA9444 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C79BFA21933D31100FA9444 /* CoreGraphics.framework */; };
+		6C79BFA51933D31100FA9444 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C79BFA41933D31100FA9444 /* UIKit.framework */; };
+		6C79BFAB1933D31100FA9444 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C79BFA91933D31100FA9444 /* InfoPlist.strings */; };
+		6C79BFAD1933D31100FA9444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C79BFAC1933D31100FA9444 /* main.m */; };
+		6C79BFB11933D31100FA9444 /* KAEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C79BFB01933D31100FA9444 /* KAEAppDelegate.m */; };
+		6C79BFB41933D31100FA9444 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C79BFB21933D31100FA9444 /* Main_iPhone.storyboard */; };
+		6C79BFBA1933D31100FA9444 /* KAEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C79BFB91933D31100FA9444 /* KAEViewController.m */; };
+		6C79BFBC1933D31100FA9444 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C79BFBB1933D31100FA9444 /* Images.xcassets */; };
+		6C79BFC31933D31100FA9444 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C79BFC21933D31100FA9444 /* XCTest.framework */; };
+		6C79BFC41933D31100FA9444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C79BFA01933D31100FA9444 /* Foundation.framework */; };
+		6C79BFC51933D31100FA9444 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C79BFA41933D31100FA9444 /* UIKit.framework */; };
+		6C79BFCD1933D31100FA9444 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C79BFCB1933D31100FA9444 /* InfoPlist.strings */; };
+		6C79BFCF1933D31100FA9444 /* slidetounlockexampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C79BFCE1933D31100FA9444 /* slidetounlockexampleTests.m */; };
+		6C79BFDC1933D73400FA9444 /* KAESlideAnimationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C79BFDB1933D73400FA9444 /* KAESlideAnimationLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C79BFC61933D31100FA9444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C79BF951933D31000FA9444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C79BF9C1933D31100FA9444;
+			remoteInfo = slidetounlockexample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C79BF9D1933D31100FA9444 /* slidetounlockexample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slidetounlockexample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C79BFA01933D31100FA9444 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C79BFA21933D31100FA9444 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C79BFA41933D31100FA9444 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C79BFA81933D31100FA9444 /* slidetounlockexample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slidetounlockexample-Info.plist"; sourceTree = "<group>"; };
+		6C79BFAA1933D31100FA9444 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C79BFAC1933D31100FA9444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C79BFAE1933D31100FA9444 /* slidetounlockexample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slidetounlockexample-Prefix.pch"; sourceTree = "<group>"; };
+		6C79BFAF1933D31100FA9444 /* KAEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAEAppDelegate.h; sourceTree = "<group>"; };
+		6C79BFB01933D31100FA9444 /* KAEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAEAppDelegate.m; sourceTree = "<group>"; };
+		6C79BFB31933D31100FA9444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6C79BFB81933D31100FA9444 /* KAEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAEViewController.h; sourceTree = "<group>"; };
+		6C79BFB91933D31100FA9444 /* KAEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAEViewController.m; sourceTree = "<group>"; };
+		6C79BFBB1933D31100FA9444 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C79BFC11933D31100FA9444 /* slidetounlockexampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slidetounlockexampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C79BFC21933D31100FA9444 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C79BFCA1933D31100FA9444 /* slidetounlockexampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "slidetounlockexampleTests-Info.plist"; sourceTree = "<group>"; };
+		6C79BFCC1933D31100FA9444 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C79BFCE1933D31100FA9444 /* slidetounlockexampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slidetounlockexampleTests.m; sourceTree = "<group>"; };
+		6C79BFDA1933D73400FA9444 /* KAESlideAnimationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAESlideAnimationLabel.h; sourceTree = "<group>"; };
+		6C79BFDB1933D73400FA9444 /* KAESlideAnimationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAESlideAnimationLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C79BF9A1933D31100FA9444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C79BFA31933D31100FA9444 /* CoreGraphics.framework in Frameworks */,
+				6C79BFA51933D31100FA9444 /* UIKit.framework in Frameworks */,
+				6C79BFA11933D31100FA9444 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C79BFBE1933D31100FA9444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C79BFC31933D31100FA9444 /* XCTest.framework in Frameworks */,
+				6C79BFC51933D31100FA9444 /* UIKit.framework in Frameworks */,
+				6C79BFC41933D31100FA9444 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C79BF941933D31000FA9444 = {
+			isa = PBXGroup;
+			children = (
+				6C79BFA61933D31100FA9444 /* slidetounlockexample */,
+				6C79BFC81933D31100FA9444 /* slidetounlockexampleTests */,
+				6C79BF9F1933D31100FA9444 /* Frameworks */,
+				6C79BF9E1933D31100FA9444 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C79BF9E1933D31100FA9444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C79BF9D1933D31100FA9444 /* slidetounlockexample.app */,
+				6C79BFC11933D31100FA9444 /* slidetounlockexampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C79BF9F1933D31100FA9444 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C79BFA01933D31100FA9444 /* Foundation.framework */,
+				6C79BFA21933D31100FA9444 /* CoreGraphics.framework */,
+				6C79BFA41933D31100FA9444 /* UIKit.framework */,
+				6C79BFC21933D31100FA9444 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C79BFA61933D31100FA9444 /* slidetounlockexample */ = {
+			isa = PBXGroup;
+			children = (
+				6C79BFAF1933D31100FA9444 /* KAEAppDelegate.h */,
+				6C79BFB01933D31100FA9444 /* KAEAppDelegate.m */,
+				6C79BFB21933D31100FA9444 /* Main_iPhone.storyboard */,
+				6C79BFB81933D31100FA9444 /* KAEViewController.h */,
+				6C79BFB91933D31100FA9444 /* KAEViewController.m */,
+				6C79BFBB1933D31100FA9444 /* Images.xcassets */,
+				6C79BFA71933D31100FA9444 /* Supporting Files */,
+				6C79BFDA1933D73400FA9444 /* KAESlideAnimationLabel.h */,
+				6C79BFDB1933D73400FA9444 /* KAESlideAnimationLabel.m */,
+			);
+			path = slidetounlockexample;
+			sourceTree = "<group>";
+		};
+		6C79BFA71933D31100FA9444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C79BFA81933D31100FA9444 /* slidetounlockexample-Info.plist */,
+				6C79BFA91933D31100FA9444 /* InfoPlist.strings */,
+				6C79BFAC1933D31100FA9444 /* main.m */,
+				6C79BFAE1933D31100FA9444 /* slidetounlockexample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C79BFC81933D31100FA9444 /* slidetounlockexampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C79BFCE1933D31100FA9444 /* slidetounlockexampleTests.m */,
+				6C79BFC91933D31100FA9444 /* Supporting Files */,
+			);
+			path = slidetounlockexampleTests;
+			sourceTree = "<group>";
+		};
+		6C79BFC91933D31100FA9444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C79BFCA1933D31100FA9444 /* slidetounlockexampleTests-Info.plist */,
+				6C79BFCB1933D31100FA9444 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C79BF9C1933D31100FA9444 /* slidetounlockexample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C79BFD21933D31100FA9444 /* Build configuration list for PBXNativeTarget "slidetounlockexample" */;
+			buildPhases = (
+				6C79BF991933D31100FA9444 /* Sources */,
+				6C79BF9A1933D31100FA9444 /* Frameworks */,
+				6C79BF9B1933D31100FA9444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = slidetounlockexample;
+			productName = slidetounlockexample;
+			productReference = 6C79BF9D1933D31100FA9444 /* slidetounlockexample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C79BFC01933D31100FA9444 /* slidetounlockexampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C79BFD51933D31100FA9444 /* Build configuration list for PBXNativeTarget "slidetounlockexampleTests" */;
+			buildPhases = (
+				6C79BFBD1933D31100FA9444 /* Sources */,
+				6C79BFBE1933D31100FA9444 /* Frameworks */,
+				6C79BFBF1933D31100FA9444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C79BFC71933D31100FA9444 /* PBXTargetDependency */,
+			);
+			name = slidetounlockexampleTests;
+			productName = slidetounlockexampleTests;
+			productReference = 6C79BFC11933D31100FA9444 /* slidetounlockexampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C79BF951933D31000FA9444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KAE;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = katekovanton;
+				TargetAttributes = {
+					6C79BFC01933D31100FA9444 = {
+						TestTargetID = 6C79BF9C1933D31100FA9444;
+					};
+				};
+			};
+			buildConfigurationList = 6C79BF981933D31000FA9444 /* Build configuration list for PBXProject "slidetounlockexample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C79BF941933D31000FA9444;
+			productRefGroup = 6C79BF9E1933D31100FA9444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C79BF9C1933D31100FA9444 /* slidetounlockexample */,
+				6C79BFC01933D31100FA9444 /* slidetounlockexampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C79BF9B1933D31100FA9444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C79BFBC1933D31100FA9444 /* Images.xcassets in Resources */,
+				6C79BFB41933D31100FA9444 /* Main_iPhone.storyboard in Resources */,
+				6C79BFAB1933D31100FA9444 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C79BFBF1933D31100FA9444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C79BFCD1933D31100FA9444 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C79BF991933D31100FA9444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C79BFB11933D31100FA9444 /* KAEAppDelegate.m in Sources */,
+				6C79BFDC1933D73400FA9444 /* KAESlideAnimationLabel.m in Sources */,
+				6C79BFAD1933D31100FA9444 /* main.m in Sources */,
+				6C79BFBA1933D31100FA9444 /* KAEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C79BFBD1933D31100FA9444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C79BFCF1933D31100FA9444 /* slidetounlockexampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C79BFC71933D31100FA9444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C79BF9C1933D31100FA9444 /* slidetounlockexample */;
+			targetProxy = 6C79BFC61933D31100FA9444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C79BFA91933D31100FA9444 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C79BFAA1933D31100FA9444 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C79BFB21933D31100FA9444 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C79BFB31933D31100FA9444 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6C79BFCB1933D31100FA9444 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C79BFCC1933D31100FA9444 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C79BFD01933D31100FA9444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C79BFD11933D31100FA9444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C79BFD31933D31100FA9444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "slidetounlockexample/slidetounlockexample-Prefix.pch";
+				INFOPLIST_FILE = "slidetounlockexample/slidetounlockexample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C79BFD41933D31100FA9444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "slidetounlockexample/slidetounlockexample-Prefix.pch";
+				INFOPLIST_FILE = "slidetounlockexample/slidetounlockexample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C79BFD61933D31100FA9444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/slidetounlockexample.app/slidetounlockexample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "slidetounlockexample/slidetounlockexample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "slidetounlockexampleTests/slidetounlockexampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6C79BFD71933D31100FA9444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/slidetounlockexample.app/slidetounlockexample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "slidetounlockexample/slidetounlockexample-Prefix.pch";
+				INFOPLIST_FILE = "slidetounlockexampleTests/slidetounlockexampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C79BF981933D31000FA9444 /* Build configuration list for PBXProject "slidetounlockexample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C79BFD01933D31100FA9444 /* Debug */,
+				6C79BFD11933D31100FA9444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C79BFD21933D31100FA9444 /* Build configuration list for PBXNativeTarget "slidetounlockexample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C79BFD31933D31100FA9444 /* Debug */,
+				6C79BFD41933D31100FA9444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C79BFD51933D31100FA9444 /* Build configuration list for PBXNativeTarget "slidetounlockexampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C79BFD61933D31100FA9444 /* Debug */,
+				6C79BFD71933D31100FA9444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C79BF951933D31000FA9444 /* Project object */;
+}
